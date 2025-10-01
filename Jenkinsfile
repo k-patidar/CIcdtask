@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning Git repository...'
-                git 'https://github.com/syedtalhahamid/Ecommerce_Application.git' // replace with your repo
+                git 'https://github.com/k-patidar/CIcdtask.git' // replace with your repo
             }
         }
 
